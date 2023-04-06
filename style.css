@@ -89,4 +89,10 @@ h1{
         right: 10%;
         left: 10%;
     }
+    button{
+
+        top: 50%;
+        right: 50%;
+        left: 20%;
+    }
 }
