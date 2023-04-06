@@ -13,7 +13,7 @@
 }
 .header{
     background: blue;
-    grid-column: 1/5 ;
+    grid-column: 1/6 ;
     grid-row: 1/1 ;
     
 
@@ -75,4 +75,18 @@ h1{
     z-index: 1;
     background-color: antiquewhite;
     border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .side{
+        background: transparent;
+    }
+    input{
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        left: 10%;
+    }
 }
